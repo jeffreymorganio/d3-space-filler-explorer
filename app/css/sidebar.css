@@ -1,0 +1,31 @@
+#sidebar {
+  width: 150px;
+  height: 100%;
+  padding: 10px;
+  background: #fbfbfb;
+  border-right: 1px solid #ccc;
+}
+
+.drive p {
+  margin: 0;
+  padding: 5px 0 0 0;
+  text-align: center;
+  color: #444;
+}
+
+.drive hr {
+  height: 1px;
+  margin: 18px 0 20px 0;
+  border: 0;
+  background: #fbfbfb;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(#fff), to(#fff), color-stop(50%, #aaa));
+}
+
+.drive:first-child hr {
+  display: none;
+}
+
+.drive svg {
+  margin: auto;
+  display: block;
+}

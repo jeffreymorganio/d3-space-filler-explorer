@@ -1,0 +1,46 @@
+.cell-hightlight {
+  stroke: #f0f;
+  stroke-width: 4px;
+}
+
+text {
+  font-size: 14px;
+  text-anchor: middle;
+  pointer-events: none;
+  fill: #fff;
+}
+
+#tooltip {
+  font-size: 12px;
+  position: absolute;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+
+#tooltip ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#tooltip li {
+  margin: 0;
+  padding-bottom: 8px;
+  list-style: none;
+  font-size: 16px;
+}
+
+#tooltip li:last-child {
+  padding-bottom: 0;
+}
+
+#tooltip pre {
+  margin: 0;
+  color: #666;
+  font-family: sans-serif;
+}

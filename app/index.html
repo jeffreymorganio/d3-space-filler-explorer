@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Space Filler Explorer</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/index.js"></script>
+  </head>
+  <body onload="initApp()">
+    <div id="toolbar">
+      <div class="layout">
+        <span class="tool"><button type="button" onclick="requestSelectDirectory()">Select <script>document.write(colloquialDirectory())</script></button></span>
+        <span class="tool"><input name="show-tooltip" type="checkbox"  onchange="requestToggleTooltipWithCheckbox()"></input><span id="show-tooltip-checkbox-label">Show tooltip</span></span>
+      </div>
+    </div>
+    <div>
+      <div id="sidebar"></div>
+      <div id="content">
+        <svg class="treemap"></svg>
+        <div id="tooltip" class="hidden">
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

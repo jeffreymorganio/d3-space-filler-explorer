@@ -1,0 +1,10 @@
+.piechart {
+  margin: 0 auto;
+}
+
+.piechart text {
+  fill: #fff;
+  font-size: 12px;
+  text-anchor: middle;
+  pointer-events: none;
+}
