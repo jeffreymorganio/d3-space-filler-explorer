@@ -6,10 +6,9 @@ The used and free space of each disk on the system is visualized with a two-segm
 
 The Space Filler Explorer demonstrates how to organise the architecture of an Electron app and how to integrate multiple D3 visualizations.
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
-<iframe src="https://www.youtube.com/embed/IORmY0rn2S8" frameborder="0" allowfullscreen  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-</iframe>
-</div>
+Watch the  [Space Filler Explorer](https://www.youtube.com/watch?v=IORmY0rn2S8) video on YouTube.
+
+<img src="http://usabilityetc.com/assets/gallery/d3-space-filler-explorer.png" alt="D3 Space Filler Explorer" width="100%">
 
 ## Requirements
 
