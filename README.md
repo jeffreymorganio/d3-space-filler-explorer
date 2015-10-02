@@ -24,14 +24,14 @@ To run the Space Filler Explorer application, invoke the `start` script in the `
 npm start
 ```
 
+The Space Filler Explorer is not currently compatible with Windows because one of its Node.js dependencies ([nodejs-disks](https://www.npmjs.com/package/nodejs-disks "Learn more about nodejs-disks at NPM")) is not compatible with Windows.
+
 ## Packaging
 
 Electron applications can be packaged to run as native, double-clickable applications. The following commands package the Space Filler Explorer as native applications on Mac OS X and Linux:
 
 - `npm run package-osx`
 - `npm run package-linux`
-
-The Space Filler Explorer is not currently compatible with Windows because one of its Node.js dependencies is not compatible with Windows.
 
 ### How Packaging Works
 
