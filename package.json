@@ -28,8 +28,8 @@
     "D3"
   ],
   "devDependencies": {
-    "electron-packager": "^5.0.1",
-    "electron-prebuilt": "0.30.4",
+    "electron-packager": "^7.0.0",
+    "electron-prebuilt": "^0.30.4",
     "numeral": "^1.5.3"
   },
   "dependencies": {
