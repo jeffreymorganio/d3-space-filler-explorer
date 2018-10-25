@@ -8,7 +8,8 @@ The Space Filler Explorer demonstrates how to organise the architecture of an El
 
 Watch the  [Space Filler Explorer](https://www.youtube.com/watch?v=IORmY0rn2S8) video on YouTube.
 
-<img src="http://usabilityetc.com/assets/gallery/d3-space-filler-explorer.png" alt="D3 Space Filler Explorer" width="100%">
+<img src="http://usabilityetc.github.io/d3-space-filler-explorer/d3-space-filler-explorer.png" alt="D3 Space Filler Explorer" width="100%">
+
 
 ## Requirements
 
